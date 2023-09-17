@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.domain-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+button {
+  color: blue;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .Header {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .Tab {
+    margin: 5px;
+    flex-basis: 45%; 
+  }
+  
+  .react-tabs, .domain-card {
+  display: block; 
+  margin: 10px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 15px;
+  }
+  
+  .react-tabs button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  }
+  
+  .react-tabs{
+    border: none;
+  }
+}

@@ -1,0 +1,77 @@
+.container{
+    border: 1px solid #ccc;
+    margin-right: 235px;
+    margin-left: 10px;
+    width: 95%;
+}
+
+.aboutUs{
+    display: flex;
+    padding: 15px;
+}
+.toggleAbout{
+    margin-left: 77.4rem;
+}
+
+.imgAbout{
+    margin-left: 25rem;
+}
+.paragraphs{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.paragraph{
+    width: 60rem;
+
+}
+.imgAbout{
+    width: 25px;
+    height: 35px;
+    margin-top: 3px;
+    margin-left: 79.4rem;
+}
+.child{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: -35px;
+}
+.child{
+    width: 52rem;
+}
+
+
+@media (max-width: 768px) {
+    .container{
+        border: none;
+        width: 20rem;
+        margin-top: 1rem;
+        margin-left: 30px;
+    }
+    .aboutUs{
+        margin-left: 48px;
+    }
+    .aboutUs h1{
+        margin:0;
+    }
+    .toggleAbout{
+        margin:0;
+        margin-left: 100px;
+    }
+    .parent1{
+        margin-top: 1rem;
+        border-bottom: 1px solid black;
+    
+    }
+    .paragraphs{
+        text-align: left;
+    }
+    .paragraphs{
+        text-align: left;
+    }
+    .child{
+        width: 13rem;
+        margin-top: 1rem;
+    
+    }
+
+} 
