@@ -1,7 +1,7 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import CSS from '../index.css'
+// import Css from '../index.css'
 import DomainCards from './domains/DomainCards'
 import DomainData from '../domainData.json'
 

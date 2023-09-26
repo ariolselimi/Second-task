@@ -8,17 +8,25 @@
 .aboutUs{
     display: flex;
     padding: 15px;
+    justify-content: space-between;
 }
 .toggleAbout{
     margin-left: 77.4rem;
 }
-
+.parent1{
+    display: flex;
+    justify-content: space-between;
+}
+.toggle-icon{
+    padding: 15px;
+    width: 25px;
+    margin-right: 5px;
+}
 .imgAbout{
     margin-left: 25rem;
 }
 .paragraphs{
     margin-left: 15px;
-    margin-top: 40px;
 }
 .paragraph{
     width: 60rem;
@@ -32,13 +40,9 @@
 }
 .child{
     text-align: left;
-    margin-left: 15px;
-    margin-top: -35px;
-}
-.child{
-    width: 52rem;
-}
+    width: 60rem;
 
+}
 
 @media (max-width: 768px) {
     .container{
@@ -59,7 +63,6 @@
     }
     .parent1{
         margin-top: 1rem;
-        border-bottom: 1px solid black;
     
     }
     .paragraphs{
@@ -71,6 +74,7 @@
     .child{
         width: 13rem;
         margin-top: 1rem;
+        margin-left: 26px;
     
     }
 

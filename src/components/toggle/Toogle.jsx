@@ -15,20 +15,21 @@ const BorderWithImage = () => {
 
   return (
     <div className="border-container">
-      <div className="content-container">
-        <div className="left-content">
+      <div className="left-content">
           <h1>Why park a domain in Parkname?</h1>
           <img
             src={imageSrc}
+            alt='Toggle'
             onClick={toggleParagraph}
           />
         </div>
-        {showParagraph && (
+      <div className="content-container">
+      </div>
+      {showParagraph && (
           <p className="paragraph">
             Parkname is the leading industry standard for domain name parking and monetization services. We offer a wide variety of services to help you achieve success.
           </p>
         )}
-      </div>
     </div>
   );
 };
