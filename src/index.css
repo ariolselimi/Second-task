@@ -82,3 +82,26 @@ button {
     border: none;
   }
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  .Tab {
+    margin: 5px;
+    flex-basis: 45%; 
+  
+  }
+  
+  .domain-card {
+  display: block; 
+  margin: 10px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 15px;
+  }
+  
+  .react-tabs{
+    border: none;
+  }
+}
